@@ -8,3 +8,25 @@ img{
   display: block;
   max-width: 100%;
 }
+
+body{
+  background: black;
+}
+
+aside, section, footer, nav{
+background: rgb(54, 53, 60);
+border-radius: 5px;
+}
+
+nav{
+  height: 40px;
+}
+
+footer{
+  height: 80px;
+}
+
+main{
+  padding: 5px 0px;
+  min-height: calc(100vh - 120px);
+}

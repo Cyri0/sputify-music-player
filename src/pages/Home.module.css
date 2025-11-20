@@ -1,0 +1,5 @@
+.homePage{
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    gap: 5px;
+}
