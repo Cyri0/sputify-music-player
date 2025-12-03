@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "title":"Sandstorm",
+        "path":"/music/sandstorm.mp3",
+        "feat":[],
+        "album":{
+            "artist":"Darude",
+            "title":"Before the storm - Special Edition",
+            "cover":"/images/darude.jpg"
+        }
+    },
+    {
+        "id": 2,
+        "title":"Never gonna give you up",
+        "path":"/music/rick.mp3",
+        "feat":[],
+        "album":{
+            "artist":"Rick Astley",
+            "title":"Whenever you need somebody",
+            "cover":"/images/rick.jpg"
+        }
+    }
+]
