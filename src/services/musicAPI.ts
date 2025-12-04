@@ -1,7 +1,9 @@
 import axios from "axios";
 import type { MusicType } from "../types/Music";
 
-const api = axios.create({baseURL: "https://pns0tn0c-8000.euw.devtunnels.ms"})
+export const baseURL = "https://pns0tn0c-8000.euw.devtunnels.ms"
+
+const api = axios.create({baseURL})
 
 export async function getPlaylist(){
     try {

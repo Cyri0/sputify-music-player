@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react"
 import type { MusicType } from "../types/Music"
-import { getPlaylist } from "../services/musicApi"
+import { getPlaylist } from "../services/musicAPI"
 
 
 type MusicContextType = {

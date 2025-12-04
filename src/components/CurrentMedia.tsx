@@ -1,4 +1,5 @@
 import { useMusicContext } from "../context/MusicContextProvider"
+import { baseURL } from "../services/musicApi"
 
 const CurrentMedia = () => {
   const {currentMusic, isLoading} = useMusicContext()
@@ -8,7 +9,7 @@ const CurrentMedia = () => {
       {isLoading && <p>Loading...</p>}
       {!isLoading && !currentMusic && <div><h2>No music selected!</h2></div>}
       {!isLoading && currentMusic && <div>
-        <img src={currentMusic.album.cover} alt={currentMusic.album.title} />
+        <img src={baseURL + currentMusic.album.cover} alt={currentMusic.album.title} />
         <h1>{currentMusic.title}</h1>
         <h2>{currentMusic.album.title}</h2>
         <h3>

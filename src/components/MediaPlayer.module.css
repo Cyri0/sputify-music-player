@@ -7,3 +7,19 @@
         background: gray;
     }
 }
+
+.currentInfo{
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    gap: 10px;
+    img{
+        margin: 5px;
+        border-radius: 10px;
+    }
+
+    >div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
