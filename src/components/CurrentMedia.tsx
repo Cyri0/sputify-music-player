@@ -12,8 +12,8 @@ const CurrentMedia = () => {
         <h1>{currentMusic.title}</h1>
         <h2>{currentMusic.album.title}</h2>
         <h3>
-          {currentMusic.album.artist}
-          {currentMusic.feat.map(a => <a href="">, {a}</a>)}</h3>
+          {currentMusic.album.artist.name}
+          {currentMusic.feat.map(a => <a href="">, {a.name}</a>)}</h3>
       </div>}
     </aside>
   )
